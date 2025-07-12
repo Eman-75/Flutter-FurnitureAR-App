@@ -5,7 +5,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 
 class ImageKitService {
   static final String _uploadUrl = "https://upload.imagekit.io/api/v1/files/upload";
-  static final String _privateKey = "private_QzWAypJsB1HtTD4jkT+W4+osFFE=";
+  static final String _privateKey = "["Your_Image_Kit_IO_Private_Key]";
 
   static Future<String?> uploadFile(File file) async {
     final uri = Uri.parse("https://upload.imagekit.io/api/v1/files/upload");
