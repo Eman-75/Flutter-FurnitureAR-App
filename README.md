@@ -1,16 +1,39 @@
-# furniture_ar
+# Flutter Furniture AR App
 
-A new Flutter project.
+This is a Flutter-based augmented reality (AR) app for placing furniture in real-world space using AR features.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a starting point for a Flutter application with AR integration.
 
-A few resources to get you started if this is your first Flutter project:
+### Helpful Resources:
+- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Flutter Cookbook](https://docs.flutter.dev/cookbook)
+- [Flutter AR packages](https://pub.dev)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Setup Instructions
+
+1. Run `flutter pub get`
+2. Add your Firebase config files:
+    - `android/app/google-services.json`
+    - `ios/Runner/GoogleService-Info.plist`
+3. Add your own [ImageKit](https://imagekit.io/) private key if you're using image uploads
+4. Run the app on a real device (AR features typically don’t work on emulators)
+
+---
+
+## Features
+
+- AR-based furniture placement
+- Firebase Firestore integration
+- Image upload via ImageKit
+- Clean UI for browsing furniture
+
+---
+
+## Security Notes
+
+- Sensitive files like Firebase keys are excluded via `.gitignore`
+- Be sure to keep `google-services.json` and API keys private
